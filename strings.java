@@ -8,10 +8,13 @@ public class strings {
         // Scanner sc=new Scanner(System.in);
         // String name= sc.nextLine();
         // System.out.println("your name is :" + name);
-        System.out.println(fullname.length());
-        for(int i=0;i<fullname.length();i++){
-            System.out.println(fullname.charAt(i));
-        }
+        // System.out.println(fullname.length());
+        // for(int i=0;i<fullname.length();i++){
+        //     System.out.println(fullname.charAt(i));
+        // }
+        String sentence="My name is Aryan";
+        String name= sentence.substring(4,sentence.length());
+        System.out.println(name);
         
     }
     
